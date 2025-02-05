@@ -33,8 +33,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Before using the dashboard, you need to configure the following settings:
 
 1. **n8n Instance Configuration**
-   - Go to the Settings page in the dashboard
-   - Enter your n8n instance URL (e.g., `http://localhost:5678`)
+   - The dashboard works with any n8n instance:
+     - [n8n Cloud](https://www.n8n.io/cloud/): Use n8n's managed cloud service
+     - Self-hosted: Install and run n8n on your own infrastructure ([Self-hosting guide](https://docs.n8n.io/hosting/))
+   - Enter your n8n instance URL:
+     - For n8n Cloud: Your cloud instance URL (e.g., `https://your-workspace.app.n8n.cloud`)
+     - For self-hosted: Your instance URL (e.g., `http://localhost:5678`)
    - Add your n8n API key
      - To get your API key:
        1. Log into your n8n instance
