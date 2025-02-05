@@ -2,6 +2,16 @@
 
 A modern dashboard for managing and monitoring your n8n agents, built with Next.js.
 
+<div align="center">
+  <img src="docs/dashboard-overview.png" alt="n8n Dashboard Overview" width="800"/>
+  <br/>
+  <em>Dashboard Overview: Monitor your agents and executions</em>
+  <br/><br/>
+  <img src="docs/agent-chat.png" alt="AI Agent Chat Interface" width="800"/>
+  <br/>
+  <em>AI Agent Chat: Create and manage your n8n agents with natural language</em>
+</div>
+
 ## Getting Started
 
 First, install the dependencies:
