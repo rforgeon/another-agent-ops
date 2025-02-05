@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# n8n Dashboard
+
+A modern dashboard for managing and monitoring your n8n agents, built with Next.js.
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -10,24 +22,67 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the dashboard.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Required Settings
+
+Before using the dashboard, you need to configure the following settings:
+
+1. **n8n Instance Configuration**
+   - Go to the Settings page in the dashboard
+   - Enter your n8n instance URL (e.g., `http://localhost:5678`)
+   - Add your n8n API key
+     - To get your API key:
+       1. Log into your n8n instance
+       2. Go to Settings > API
+       3. Create a new API key with appropriate permissions
+       4. Copy the generated key
+
+2. **Anthropic API Key**
+   - Go to the Settings page in the dashboard
+   - Enter your Anthropic API key
+     - To get an API key:
+       1. Visit [Anthropic's website](https://www.anthropic.com)
+       2. Sign up or log in to your account
+       3. Navigate to the API section
+       4. Generate a new API key
+       5. Copy the key
+
+### Environment Variables
+
+If you prefer to set these values via environment variables, create a `.env.local` file in the root directory with:
+
+```env
+NEXT_PUBLIC_N8N_URL=your_n8n_url
+NEXT_PUBLIC_N8N_API_KEY=your_n8n_api_key
+NEXT_PUBLIC_ANTHROPIC_API_KEY=your_anthropic_api_key
+```
+
+## Features
+
+- Modern, responsive dashboard interface
+- Real-time agent monitoring
+- Execution history and statistics
+- AI-powered agent chat assistance
+- Workflow visualization and management
+- Integration with n8n's API
+- Dark mode support
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [n8n Documentation](https://docs.n8n.io)
+- [Anthropic Claude Documentation](https://docs.anthropic.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Deploy on Vercel
 
