@@ -10,6 +10,10 @@ A modern dashboard for managing and monitoring your n8n agents, built with Next.
   <img src="docs/agent-chat.png" alt="AI Agent Chat Interface" width="800"/>
   <br/>
   <em>AI Agent Chat: Create and manage your n8n agents with natural language</em>
+  <br/><br/>
+  <img src="docs/n8n-screen.png" alt="n8n Workflow Editor" width="800"/>
+  <br/>
+  <em>n8n Workflow Editor: Build and configure your agents visually</em>
 </div>
 
 ## Getting Started
