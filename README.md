@@ -14,13 +14,14 @@ A modern dashboard for managing and monitoring your n8n agents, built with Next.
   <img src="docs/n8n-screen.png" alt="n8n Workflow Editor" width="800"/>
   <br/>
   <em>n8n Workflow Editor: Build and configure your agents visually</em>
-  <br/><br/>
-  <video width="800" controls>
-    <source src="docs/anotherAgentOps.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <br/>
-  <em>Watch it in action: Setup, creating, and managing agents</em>
+</div>
+
+## Watch it in Action
+
+<div align="center">
+  <a href="https://twitter.com/ralph_maker/status/1887402462702621037">
+    🎥 Watch Demo Video on X - Setup, create, and manage agents.
+  </a>
 </div>
 
 ## Getting Started
