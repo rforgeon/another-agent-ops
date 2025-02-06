@@ -18,11 +18,8 @@ A modern dashboard for managing and monitoring your n8n agents, built with Next.
 
 ## Watch it in Action
 
-<div align="center">
-  <video src="https://twitter.com/i/status/1887402462702621037" width="800" controls>
-    Your browser does not support the video tag.
-  </video>
-</div>
+https://github.com/user-attachments/assets/4145677b-8ac2-4bd5-9d9a-4798f46eadb4
+
 
 ## Getting Started
 
