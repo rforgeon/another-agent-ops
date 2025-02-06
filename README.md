@@ -1,6 +1,6 @@
-# n8n Dashboard
+# Agent Ops Dashboard
 
-A modern dashboard for managing and monitoring your n8n agents, built with Next.js.
+A modern dashboard for managing and monitoring your n8n agents. "Cursor for agents"
 
 <div align="center">
   <img src="docs/dashboard-overview.png" alt="n8n Dashboard Overview" width="800"/>
@@ -93,7 +93,6 @@ NEXT_PUBLIC_ANTHROPIC_API_KEY=your_anthropic_api_key
 - AI-powered agent chat assistance
 - Workflow visualization and management
 - Integration with n8n's API
-- Dark mode support
 
 ## Learn More
 
@@ -106,9 +105,3 @@ To learn more about the technologies used in this project:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
