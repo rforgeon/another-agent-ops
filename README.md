@@ -19,10 +19,9 @@ A modern dashboard for managing and monitoring your n8n agents, built with Next.
 ## Watch it in Action
 
 <div align="center">
-  <blockquote class="twitter-tweet" data-media-max-width="560">
-    <p lang="en" dir="ltr">How to setup, create, and manage agents.<a href="https://t.co/x8uX0zrs3P">pic.twitter.com/x8uX0zrs3P</a></p>&mdash; ralph 🍥 (@ralph_maker) 
-    <a href="https://twitter.com/ralph_maker/status/1887402462702621037?ref_src=twsrc%5Etfw">February 6, 2025</a>
-  </blockquote>
+  <video src="https://twitter.com/i/status/1887402462702621037" width="800" controls>
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ## Getting Started
