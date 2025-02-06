@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { RequireApiConfig } from "../(dashboard)/_components/require-api-config";
+import { RequireApiConfig } from "./_components/require-api-config";
 import { AppSidebar } from "@/components/app-sidebar";
 import { Separator } from "@/components/ui/separator";
 import {
